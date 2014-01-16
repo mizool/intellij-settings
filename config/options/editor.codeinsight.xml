@@ -1,5 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <application>
+  <component name="CodeFoldingSettings">
+    <option name="COLLAPSE_IMPORTS" value="false" />
+    <option name="COLLAPSE_FILE_HEADER" value="false" />
+  </component>
+  <component name="CssFoldingSettings">
+    <option name="collapseDataUri" value="false" />
+  </component>
   <component name="DaemonCodeAnalyzerSettings" profile="Default">
     <option name="NEXT_ERROR_ACTION_GOES_TO_ERRORS_FIRST" value="true" />
     <option name="AUTOREPARSE_DELAY" value="300" />
@@ -9,6 +16,22 @@
     <option name="SHOW_METHOD_SEPARATORS" value="false" />
     <option name="ERROR_STRIPE_MARK_MIN_HEIGHT" value="3" />
     <option name="SHOW_SMALL_ICONS_IN_GUTTER" value="true" />
+  </component>
+  <component name="JavaCodeFoldingSettings">
+    <option name="collapseAccessors" value="false" />
+    <option name="collapseConstructorGenericParameters" value="false" />
+    <option name="collapseI18nMessages" value="false" />
+    <option name="collapseLambdas" value="false" />
+    <option name="collapseSuppressWarnings" value="false" />
+    <option name="COLLAPSE_ACCESSORS" value="false" />
+    <option name="COLLAPSE_CLOSURES" value="false" />
+    <option name="COLLAPSE_CONSTRUCTOR_GENERIC_PARAMETERS" value="false" />
+    <option name="COLLAPSE_I18N_MESSAGES" value="false" />
+    <option name="COLLAPSE_SUPPRESS_WARNINGS" value="false" />
+  </component>
+  <component name="XmlFoldingSettings">
+    <option name="collapseHtmlStyleAttribute" value="false" />
+    <option name="COLLAPSE_HTML_STYLE_ATTRIBUTE" value="false" />
   </component>
 </application>
 
