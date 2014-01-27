@@ -7,7 +7,7 @@
   <component name="CssFoldingSettings">
     <option name="collapseDataUri" value="false" />
   </component>
-  <component name="DaemonCodeAnalyzerSettings" profile="Default">
+  <component name="DaemonCodeAnalyzerSettings" profile="incub8">
     <option name="NEXT_ERROR_ACTION_GOES_TO_ERRORS_FIRST" value="true" />
     <option name="AUTOREPARSE_DELAY" value="300" />
     <option name="SHOW_ADD_IMPORT_HINTS" value="true" />
