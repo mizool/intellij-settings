@@ -30,6 +30,9 @@
   <option name="JD_KEEP_EMPTY_RETURN" value="false" />
   <option name="WRAP_COMMENTS" value="true" />
   <XML>
+    <option name="XML_ATTRIBUTE_WRAP" value="4" />
+    <option name="XML_KEEP_LINE_BREAKS" value="false" />
+    <option name="XML_KEEP_BLANK_LINES" value="1" />
     <option name="XML_SPACE_INSIDE_EMPTY_TAG" value="true" />
     <option name="XML_LEGACY_SETTINGS_IMPORTED" value="true" />
   </XML>
@@ -95,6 +98,10 @@
         <group>
           <type>GETTERS_AND_SETTERS</type>
           <order>KEEP</order>
+        </group>
+        <group>
+          <type>DEPENDENT_METHODS</type>
+          <order>DEPTH_FIRST</order>
         </group>
       </groups>
       <rules>
@@ -264,6 +271,7 @@
           <match>
             <METHOD />
           </match>
+          <order>BY_NAME</order>
         </rule>
         <rule>
           <match>
