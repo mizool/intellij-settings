@@ -57,7 +57,6 @@
     <option name="ALIGN_MULTILINE_TERNARY_OPERATION" value="true" />
     <option name="ALIGN_MULTILINE_THROWS_LIST" value="true" />
     <option name="ALIGN_MULTILINE_EXTENDS_LIST" value="true" />
-    <option name="ALIGN_MULTILINE_METHOD_BRACKETS" value="true" />
     <option name="ALIGN_MULTILINE_ARRAY_INITIALIZER_EXPRESSION" value="true" />
     <option name="SPACE_WITHIN_ARRAY_INITIALIZER_BRACES" value="true" />
     <option name="CALL_PARAMETERS_WRAP" value="5" />
@@ -294,17 +293,6 @@
         <rule>
           <match>
             <CLASS />
-          </match>
-        </rule>
-      </rules>
-    </arrangement>
-  </codeStyleSettings>
-  <codeStyleSettings language="XML">
-    <arrangement>
-      <rules>
-        <rule>
-          <match>
-            <NAME>xmlns:.*</NAME>
           </match>
         </rule>
       </rules>

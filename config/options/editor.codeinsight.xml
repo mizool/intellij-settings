@@ -22,12 +22,11 @@
     <option name="SHOW_SMALL_ICONS_IN_GUTTER" value="true" />
   </component>
   <component name="JavaCodeFoldingSettings">
-    <option name="collapseAccessors" value="false" />
     <option name="collapseConstructorGenericParameters" value="false" />
     <option name="collapseI18nMessages" value="false" />
     <option name="collapseLambdas" value="false" />
     <option name="collapseSuppressWarnings" value="false" />
-    <option name="COLLAPSE_ACCESSORS" value="false" />
+    <option name="COLLAPSE_ONE_LINE_METHODS" value="false" />
     <option name="COLLAPSE_CLOSURES" value="false" />
     <option name="COLLAPSE_CONSTRUCTOR_GENERIC_PARAMETERS" value="false" />
     <option name="COLLAPSE_I18N_MESSAGES" value="false" />
