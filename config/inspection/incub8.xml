@@ -1,4 +1,3 @@
-<?xml version="1.0" encoding="UTF-8"?>
 <inspections profile_name="incub8" version="1.0" is_locked="false">
   <option name="myName" value="incub8" />
   <option name="myLocal" value="true" />
@@ -8,4 +7,3 @@
     <option name="m_ignoreAnnotatedVariables" value="false" />
   </inspection_tool>
 </inspections>
-

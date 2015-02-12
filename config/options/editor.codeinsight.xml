@@ -1,4 +1,3 @@
-<?xml version="1.0" encoding="UTF-8"?>
 <application>
   <component name="CodeFoldingSettings">
     <option name="COLLAPSE_IMPORTS" value="false" />
@@ -7,19 +6,13 @@
   <component name="CodeInsightSettings">
     <option name="ADD_IMPORTS_ON_PASTE" value="1" />
     <option name="OPTIMIZE_IMPORTS_ON_THE_FLY" value="true" />
+    <EXCLUDED_PACKAGE NAME="com.google.appengine.repackaged" />
   </component>
   <component name="CssFoldingSettings">
     <option name="collapseDataUri" value="false" />
   </component>
   <component name="DaemonCodeAnalyzerSettings" profile="incub8">
-    <option name="NEXT_ERROR_ACTION_GOES_TO_ERRORS_FIRST" value="true" />
-    <option name="AUTOREPARSE_DELAY" value="300" />
     <option name="SHOW_ADD_IMPORT_HINTS" value="false" />
-    <option name="NO_AUTO_IMPORT_PATTERN" value="[a-z].?" />
-    <option name="SUPPRESS_WARNINGS" value="true" />
-    <option name="SHOW_METHOD_SEPARATORS" value="false" />
-    <option name="ERROR_STRIPE_MARK_MIN_HEIGHT" value="3" />
-    <option name="SHOW_SMALL_ICONS_IN_GUTTER" value="true" />
   </component>
   <component name="JavaCodeFoldingSettings">
     <option name="collapseConstructorGenericParameters" value="false" />
@@ -37,4 +30,3 @@
     <option name="COLLAPSE_HTML_STYLE_ATTRIBUTE" value="false" />
   </component>
 </application>
-
