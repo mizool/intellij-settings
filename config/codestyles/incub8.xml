@@ -4,6 +4,7 @@
   <option name="PACKAGES_TO_USE_IMPORT_ON_DEMAND">
     <value>
       <package name="de.incub8.scribble.ObjectifyService" withSubpackages="true" static="true" />
+      <package name="org.fest.assertions.api.Assertions" withSubpackages="false" static="true" />
     </value>
   </option>
   <option name="IMPORT_LAYOUT_TABLE">
