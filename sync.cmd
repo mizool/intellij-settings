@@ -1,5 +1,6 @@
 @echo off
 setlocal
+title IntelliJ Settings Sync
 cls
 
 :: copy this script to temp dir and execute it, so that we can safely update the working copy without breaking execution.
@@ -28,16 +29,33 @@ goto wait
 
 :check-for-unstaged
 git diff --exit-code > nul 2>&1
-if not errorlevel 1 goto check-for-staged
+if not errorlevel 1 goto ensure-connection
 color e0 && cls
 echo.
 echo   +----------------------------+
 echo   ^| You have unstaged changes. ^|
 echo   +----------------------------+
-echo.
 goto wait
 
+:ensure-connection
+echo Waiting for internet connection...
+set tries=0
+:ping
+ping -n 2 8.8.8.8 > nul 2>&1
+if not errorlevel 1 goto check-for-staged
+set /a tries+=1
+if %tries% leq 45 goto ping
+color 4f && cls
+echo.
+echo   +-------------------------+
+echo   ^| You seem to be offline. ^|
+echo   +-------------------------+
+goto wait
+
+
+
 :check-for-staged
+cls
 git diff --cached --exit-code > nul 2>&1
 if not errorlevel 1 goto fetch
 color e0 && cls
@@ -62,7 +80,7 @@ echo   +---------------------------------+
 echo   ^| Could not fetch remote changes. ^|
 echo   +---------------------------------+
 echo.
-echo Are you offline? Is Bitbucket down? Has the repository moved?
+echo Is Bitbucket down? Has the repository moved?
 goto wait
 
 
