@@ -5,6 +5,7 @@
       <w>cmlt</w>
       <w>datastore</w>
       <w>hasher</w>
+      <w>joda</w>
       <w>keyspace</w>
       <w>nashorn</w>
       <w>pojo</w>
