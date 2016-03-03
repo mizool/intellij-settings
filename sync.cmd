@@ -15,7 +15,7 @@ cd %2
 
 for /f %%i in ('git symbolic-ref --short HEAD') do set currentBranch=%%i
 if "%currentBranch%"=="master" goto begin
-color e0 && cls
+color 4f && cls
 echo.
 echo   +------------------------+
 echo   ^| You are not on master. ^|
@@ -28,13 +28,15 @@ goto wait
 
 
 :check-for-unstaged
-git diff --exit-code > nul 2>&1
-if not errorlevel 1 goto ensure-connection
-color e0 && cls
+git diff | find "@@" > nul 2>&1
+if errorlevel 1 goto ensure-connection
+cls
 echo.
 echo   +----------------------------+
-echo   ^| You have unstaged changes. ^|
+echo   ^| You have unstaged changes: ^|
 echo   +----------------------------+
+echo.
+git --no-pager diff
 goto wait
 
 :ensure-connection
@@ -56,13 +58,15 @@ goto wait
 
 :check-for-staged
 cls
-git diff --cached --exit-code > nul 2>&1
-if not errorlevel 1 goto fetch
-color e0 && cls
+git diff --cached | find "@@" > nul 2>&1
+if errorlevel 1 goto fetch
+cls
 echo.
 echo   +--------------------------+
-echo   ^| You have staged changes. ^|
+echo   ^| You have staged changes: ^|
 echo   +--------------------------+
+echo.
+git --no-pager diff --cached
 goto wait
 
 :: Note that we do not check for new, untracked files. As our .gitignore is set to '*', such files would be ignored anyway.
