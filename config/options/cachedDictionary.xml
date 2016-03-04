@@ -7,6 +7,7 @@
       <w>datastore</w>
       <w>hasher</w>
       <w>hazelcast</w>
+      <w>iterable</w>
       <w>joda</w>
       <w>keyspace</w>
       <w>nashorn</w>
