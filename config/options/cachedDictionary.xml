@@ -13,6 +13,7 @@
       <w>iterable</w>
       <w>joda</w>
       <w>keyspace</w>
+      <w>keyspaces</w>
       <w>nashorn</w>
       <w>obelix</w>
       <w>pojo</w>
@@ -24,6 +25,7 @@
       <w>statement</w>
       <w>substitutor</w>
       <w>summand</w>
+      <w>transferfix</w>
       <w>transformator</w>
       <w>upsert</w>
     </words>
