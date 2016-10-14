@@ -4,12 +4,14 @@
       <w>annotationchart</w>
       <w>asterix</w>
       <w>cacheable</w>
+      <w>castra</w>
       <w>cmlt</w>
       <w>corechart</w>
       <w>datastore</w>
       <w>goog</w>
       <w>hasher</w>
       <w>hazelcast</w>
+      <w>hitbox</w>
       <w>iterable</w>
       <w>joda</w>
       <w>keyspace</w>
