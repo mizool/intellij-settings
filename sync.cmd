@@ -41,7 +41,6 @@ goto wait
 
 :ensure-connection
 echo Waiting for internet connection...
-set tries=0
 :ping
 ping -n 2 8.8.8.8 > nul 2>&1
 if not errorlevel 1 goto check-for-staged
@@ -58,6 +57,7 @@ goto wait
 
 :check-for-staged
 cls
+set tries=0
 git diff --cached | find "@@" > nul 2>&1
 if errorlevel 1 goto fetch
 cls
@@ -74,10 +74,13 @@ goto wait
 
 :fetch
 for /f %%i in ('git rev-parse --short master') do set oldMaster=%%i
+set tries=0
 echo Fetching remote changes...
 
 git fetch origin > nul 2>&1
 if not errorlevel 1 goto rebase
+set /a tries+=1
+if %tries% leq 3 goto fetch
 color 4f && cls
 echo.
 echo   +---------------------------------+
