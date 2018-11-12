@@ -81,7 +81,28 @@
   <Properties>
     <option name="KEEP_BLANK_LINES" value="true" />
   </Properties>
-  <SqlCodeStyleSettings>
+  <SqlCodeStyleSettings version="0">
+    <option name="myVersion" value="0" />
+    <option name="ALIAS_CASE" value="4" />
+    <option name="KEYWORD_CASE" value="1" />
+    <option name="TYPE_CASE" value="3" />
+    <option name="IDENTIFIER_CASE" value="1" />
+    <option name="QUERY_EL_LINE" value="101" />
+    <option name="SUBQUERY_L_PAR_NL_INSIDE" value="true" />
+    <option name="SET_EL_WRAP" value="0" />
+    <option name="SET_EL_COMMA" value="0" />
+    <option name="SET_ALIGN_EQUAL_SIGN" value="false" />
+    <option name="WITH_EL_WRAP" value="0" />
+    <option name="WITH_EL_COMMA" value="0" />
+    <option name="SELECT_KEEP_N_ITEMS_IN_LINE" value="0" />
+    <option name="SELECT_ALIGN_AS" value="false" />
+    <option name="WHERE_EL_BOUND" value="2" />
+    <option name="ORDER_EL_WRAP" value="1" />
+    <option name="CORTEGE_SPACE_BEFORE_L_PAREN" value="false" />
+    <option name="EXPR_BINARY_OP_ALIGN" value="false" />
+    <option name="EXPR_CASE_WHEN_WRAP" value="false" />
+    <option name="EXPR_CASE_THEN_WRAP" value="true" />
+    <option name="PRIMARY_KEY_NAME_TEMPLATE" value="{table}_{columns}_pk" />
     <option name="ALIGN_AS_IN_SELECT_STATEMENT" value="false" />
     <option name="ALIGN_TYPE_IN_CREATE_STATEMENT" value="false" />
     <option name="ALIGN_TYPE_IN_BLOCK_STATEMENT" value="false" />
@@ -98,15 +119,12 @@
     <option name="WRAP_INSIDE_WHERE" value="2" />
     <option name="WRAP_INSIDE_ORDER_BY" value="2" />
     <option name="WRAP_INSIDE_SET" value="2" />
-    <option name="WRAP_INSIDE_BINARY_EXPRESSION" value="2" />
     <option name="WRAP_INSIDE_ARGUMENT_DEFINITION" value="2" />
     <option name="WRAP_INSIDE_CALL_EXPRESSION" value="2" />
     <option name="WRAP_INSIDE_VALUES_EXPRESSION" value="2" />
     <option name="WRAP_VALUES_EXPRESSION" value="2" />
     <option name="WRAP_PARENTHESIZED_EXPRESSION_INSIDE_VALUES" value="2" />
     <option name="NEW_LINE_AFTER_SELECT_2" value="0" />
-    <option name="KEYWORD_CASE" value="1" />
-    <option name="IDENTIFIER_CASE" value="1" />
   </SqlCodeStyleSettings>
   <XML>
     <option name="XML_ATTRIBUTE_WRAP" value="0" />
@@ -117,6 +135,11 @@
     <option name="XML_SPACE_INSIDE_EMPTY_TAG" value="true" />
     <option name="XML_LEGACY_SETTINGS_IMPORTED" value="true" />
   </XML>
+  <yaml>
+    <option name="INDENT_SEQUENCE_VALUE" value="true" />
+    <option name="SEQUENCE_ON_NEW_LINE" value="true" />
+    <option name="BLOCK_MAPPING_ON_NEW_LINE" value="true" />
+  </yaml>
   <codeStyleSettings language="ECMA Script Level 4">
     <option name="WRAP_COMMENTS" value="true" />
     <option name="PARENT_SETTINGS_INSTALLED" value="true" />
@@ -635,5 +658,10 @@
         </section>
       </rules>
     </arrangement>
+  </codeStyleSettings>
+  <codeStyleSettings language="yaml">
+    <indentOptions>
+      <option name="INDENT_SIZE" value="4" />
+    </indentOptions>
   </codeStyleSettings>
 </code_scheme>
