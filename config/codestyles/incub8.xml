@@ -32,6 +32,7 @@
   <option name="JD_KEEP_EMPTY_EXCEPTION" value="false" />
   <option name="JD_KEEP_EMPTY_RETURN" value="false" />
   <option name="HTML_DO_NOT_INDENT_CHILDREN_OF" value="" />
+  <option name="FORMATTER_TAGS_ENABLED" value="true" />
   <option name="WRAP_COMMENTS" value="true" />
   <AndroidXmlCodeStyleSettings>
     <option name="USE_CUSTOM_SETTINGS" value="true" />
@@ -39,7 +40,7 @@
   <HTMLCodeStyleSettings>
     <option name="HTML_DO_NOT_INDENT_CHILDREN_OF" value="" />
   </HTMLCodeStyleSettings>
-  <JSCodeStyleSettings>
+  <JSCodeStyleSettings version="0">
     <option name="SPACE_BEFORE_FUNCTION_LEFT_PARENTH" value="false" />
   </JSCodeStyleSettings>
   <JSON>
@@ -81,28 +82,67 @@
   <Properties>
     <option name="KEEP_BLANK_LINES" value="true" />
   </Properties>
-  <SqlCodeStyleSettings version="0">
-    <option name="myVersion" value="0" />
+  <SqlCodeStyleSettings version="2">
     <option name="ALIAS_CASE" value="4" />
     <option name="KEYWORD_CASE" value="1" />
     <option name="TYPE_CASE" value="3" />
     <option name="IDENTIFIER_CASE" value="1" />
+    <option name="QUOTE_IDENTIFIER" value="1" />
     <option name="QUERY_EL_LINE" value="101" />
-    <option name="SUBQUERY_L_PAR_NL_INSIDE" value="true" />
-    <option name="SET_EL_WRAP" value="0" />
-    <option name="SET_EL_COMMA" value="0" />
+    <option name="QUERY_IN_ONE_STRING" value="1" />
+    <option name="QUERY_TRUE_INDENT" value="false" />
+    <option name="QUERY_ALIGN_ELEMENTS" value="false" />
+    <option name="QUERY_ALIGN_LINE_COMMENTS" value="false" />
+    <option name="SUBQUERY_OPENING" value="3" />
+    <option name="SUBQUERY_CONTENT" value="4" />
+    <option name="SUBQUERY_CLOSING" value="4" />
+    <option name="INSERT_INTO_NL" value="2" />
+    <option name="INSERT_OPENING" value="3" />
+    <option name="INSERT_CONTENT" value="4" />
+    <option name="INSERT_CLOSING" value="3" />
+    <option name="INSERT_TABLE_EL_LINE" value="1" />
+    <option name="INSERT_EL_WRAP" value="1" />
     <option name="SET_ALIGN_EQUAL_SIGN" value="false" />
-    <option name="WITH_EL_WRAP" value="0" />
-    <option name="WITH_EL_COMMA" value="0" />
+    <option name="SELECT_NEW_LINE_AFTER_ALL_DISTINCT" value="true" />
     <option name="SELECT_KEEP_N_ITEMS_IN_LINE" value="0" />
+    <option name="SELECT_USE_AS_WORD" value="1" />
     <option name="SELECT_ALIGN_AS" value="false" />
-    <option name="WHERE_EL_BOUND" value="2" />
+    <option name="FROM_WRAP_ON" value="true" />
+    <option name="FROM_INDENT_JOIN" value="false" />
+    <option name="FROM_ONLY_JOIN_INDENT" value="2" />
     <option name="ORDER_EL_WRAP" value="1" />
-    <option name="CORTEGE_SPACE_BEFORE_L_PAREN" value="false" />
+    <option name="TABLE_TYPES_ALIGN" value="false" />
+    <option name="TABLE_DEFAULTS_ALIGN" value="false" />
+    <option name="TABLE_NULLABILITIES_ALIGN" value="false" />
+    <option name="TABLE_ALTER_INSTRUCTION_ALIGN" value="false" />
+    <option name="CONSTRAINT_WRAP_2" value="true" />
+    <option name="CONSTRAINT_WRAP_3" value="true" />
+    <option name="CONSTRAINT_WRAP_4" value="true" />
+    <option name="POST_OPT_WRAP_1" value="true" />
+    <option name="POST_OPT_INDENT" value="false" />
+    <option name="POST_OPT_ALIGN" value="false" />
+    <option name="VIEW_INDENT_QUERY" value="true" />
+    <option name="ROUTINE_ARG_CONTENT" value="1" />
+    <option name="ROUTINE_ARG_CLOSING" value="1" />
+    <option name="ROUTINE_ARG_WRAP" value="1" />
+    <option name="ROUTINE_AS_WRAP" value="true" />
+    <option name="ROUTINE_PG_R_QUOTE_WRAP_AFTER" value="true" />
+    <option name="IMP_COMMON_WRAP_EVERY_STATEMENT" value="true" />
+    <option name="IMP_COMMON_KEEP_BLANK_LINES_IN_CODE" value="1" />
+    <option name="IMP_DECLARE_EL_WRAP" value="1" />
+    <option name="IMP_DECLARE_ALIGN_TYPE" value="false" />
+    <option name="IMP_DECLARE_ALIGN_EQ" value="false" />
+    <option name="IMP_IF_THEN_COLLAPSE" value="false" />
+    <option name="IMP_LOOP_LOOP_WRAP" value="false" />
+    <option name="IMP_LOOP_LOOP_INDENT" value="false" />
     <option name="EXPR_BINARY_OP_ALIGN" value="false" />
-    <option name="EXPR_CASE_WHEN_WRAP" value="false" />
     <option name="EXPR_CASE_THEN_WRAP" value="true" />
+    <option name="EXPR_CASE_THEN_ALIGN" value="true" />
+    <option name="EXPR_CASE_ELSE_ALIGN_THEN" value="true" />
+    <option name="EXPR_CASE_END" value="1" />
+    <option name="EXPR_CASE_COLLAPSE" value="false" />
     <option name="PRIMARY_KEY_NAME_TEMPLATE" value="{table}_{columns}_pk" />
+    <option name="SUBQUERY_L_PAR_NL_INSIDE" value="true" />
     <option name="ALIGN_AS_IN_SELECT_STATEMENT" value="false" />
     <option name="ALIGN_TYPE_IN_CREATE_STATEMENT" value="false" />
     <option name="ALIGN_TYPE_IN_BLOCK_STATEMENT" value="false" />
@@ -136,7 +176,6 @@
     <option name="XML_LEGACY_SETTINGS_IMPORTED" value="true" />
   </XML>
   <yaml>
-    <option name="INDENT_SEQUENCE_VALUE" value="true" />
     <option name="SEQUENCE_ON_NEW_LINE" value="true" />
     <option name="BLOCK_MAPPING_ON_NEW_LINE" value="true" />
   </yaml>
@@ -493,6 +532,7 @@
     </indentOptions>
   </codeStyleSettings>
   <codeStyleSettings language="SQL">
+    <option name="KEEP_LINE_BREAKS" value="false" />
     <option name="KEEP_BLANK_LINES_IN_CODE" value="1" />
     <indentOptions>
       <option name="INDENT_SIZE" value="4" />
