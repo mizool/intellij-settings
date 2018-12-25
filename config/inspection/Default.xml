@@ -2,4 +2,5 @@
   <option name="myName" value="Default" />
   <inspection_tool class="DefaultAnnotationParam" enabled="false" level="WARNING" enabled_by_default="false" />
   <inspection_tool class="SqlNoDataSourceInspection" enabled="false" level="WARNING" enabled_by_default="false" />
+  <inspection_tool class="UnstableApiUsage" enabled="false" level="WARNING" enabled_by_default="false" />
 </profile>
