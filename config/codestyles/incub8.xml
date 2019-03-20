@@ -86,7 +86,6 @@
     <option name="ALIAS_CASE" value="4" />
     <option name="KEYWORD_CASE" value="1" />
     <option name="TYPE_CASE" value="3" />
-    <option name="IDENTIFIER_CASE" value="1" />
     <option name="QUOTE_IDENTIFIER" value="1" />
     <option name="QUERY_EL_LINE" value="101" />
     <option name="QUERY_EL_COMMA" value="2" />
