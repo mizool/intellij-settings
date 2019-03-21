@@ -110,11 +110,11 @@
     <option name="FROM_INDENT_JOIN" value="false" />
     <option name="FROM_ONLY_JOIN_INDENT" value="2" />
     <option name="ORDER_EL_WRAP" value="1" />
-    <option name="TABLE_OPENING" value="4" />
     <option name="TABLE_TYPES_ALIGN" value="false" />
     <option name="TABLE_DEFAULTS_ALIGN" value="false" />
     <option name="TABLE_NULLABILITIES_ALIGN" value="false" />
     <option name="TABLE_ALTER_INSTRUCTION_ALIGN" value="false" />
+    <option name="CONSTRAINT_WRAP_1" value="false" />
     <option name="CONSTRAINT_WRAP_2" value="true" />
     <option name="CONSTRAINT_WRAP_3" value="true" />
     <option name="CONSTRAINT_WRAP_4" value="true" />
@@ -122,11 +122,14 @@
     <option name="POST_OPT_INDENT" value="false" />
     <option name="POST_OPT_ALIGN" value="false" />
     <option name="CREATE_SCHEMA_CONTENT_INDENT" value="false" />
+    <option name="VIEW_WRAP_AS" value="true" />
     <option name="VIEW_INDENT_QUERY" value="true" />
+    <option name="ROUTINE_ARG_OPENING" value="3" />
     <option name="ROUTINE_ARG_CONTENT" value="2" />
-    <option name="ROUTINE_ARG_CLOSING" value="3" />
+    <option name="ROUTINE_ARG_CLOSING" value="4" />
     <option name="ROUTINE_ARG_WRAP" value="1" />
     <option name="ROUTINE_ARG_COMMA" value="2" />
+    <option name="ROUTINE_AS_WRAP" value="true" />
     <option name="ROUTINE_PG_R_QUOTE_WRAP_AFTER" value="true" />
     <option name="IMP_COMMON_WRAP_EVERY_STATEMENT" value="true" />
     <option name="IMP_COMMON_KEEP_BLANK_LINES_IN_CODE" value="1" />
