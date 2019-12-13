@@ -762,10 +762,6 @@
     <option name="XML_SPACE_INSIDE_EMPTY_TAG" value="true" />
     <option name="XML_LEGACY_SETTINGS_IMPORTED" value="true" />
   </XML>
-  <yaml>
-    <option name="SEQUENCE_ON_NEW_LINE" value="true" />
-    <option name="BLOCK_MAPPING_ON_NEW_LINE" value="true" />
-  </yaml>
   <codeStyleSettings language="DB2">
     <option name="KEEP_LINE_BREAKS" value="false" />
   </codeStyleSettings>
@@ -1309,10 +1305,5 @@
         </section>
       </rules>
     </arrangement>
-  </codeStyleSettings>
-  <codeStyleSettings language="yaml">
-    <indentOptions>
-      <option name="INDENT_SIZE" value="4" />
-    </indentOptions>
   </codeStyleSettings>
 </code_scheme>
