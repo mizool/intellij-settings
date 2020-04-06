@@ -1140,6 +1140,12 @@
   <codeStyleSettings language="SQLite">
     <option name="KEEP_LINE_BREAKS" value="false" />
   </codeStyleSettings>
+  <codeStyleSettings language="Shell Script">
+    <indentOptions>
+      <option name="INDENT_SIZE" value="4" />
+      <option name="TAB_SIZE" value="4" />
+    </indentOptions>
+  </codeStyleSettings>
   <codeStyleSettings language="Sybase">
     <option name="KEEP_LINE_BREAKS" value="false" />
   </codeStyleSettings>
