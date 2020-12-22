@@ -791,6 +791,9 @@
   <codeStyleSettings language="DB2">
     <option name="KEEP_LINE_BREAKS" value="false" />
   </codeStyleSettings>
+  <codeStyleSettings language="Dart">
+    <option name="RIGHT_MARGIN" value="120" />
+  </codeStyleSettings>
   <codeStyleSettings language="Derby">
     <option name="KEEP_LINE_BREAKS" value="false" />
   </codeStyleSettings>
