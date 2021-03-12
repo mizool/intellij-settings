@@ -13,4 +13,4 @@ In case there are any changes that should flow back into this repository, please
 To keep your local settings up do date, you can place a shortcut to `sync.cmd` in your `shell:startup` folder.
 Note that the `<version>` changes with every major update of IntelliJ.
 You will have to modify the shortcut manually to point to the correct folder.
-It will automatically pull the latest version from this repository, but will warn you if you have uncommitted changes so you can review them before losing anything.
+The script will automatically pull the latest version from this repository, but will warn you if you have uncommitted changes so you can review them before losing anything.
