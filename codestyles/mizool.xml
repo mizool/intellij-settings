@@ -1251,12 +1251,6 @@
   <codeStyleSettings language="PostgreSQL">
     <option name="KEEP_LINE_BREAKS" value="false" />
   </codeStyleSettings>
-  <codeStyleSettings language="Python">
-    <indentOptions>
-      <option name="INDENT_SIZE" value="2" />
-      <option name="TAB_SIZE" value="2" />
-    </indentOptions>
-  </codeStyleSettings>
   <codeStyleSettings language="SQL">
     <option name="KEEP_LINE_BREAKS" value="false" />
   </codeStyleSettings>
