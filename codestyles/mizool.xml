@@ -28,7 +28,7 @@
   <AndroidXmlCodeStyleSettings>
     <option name="USE_CUSTOM_SETTINGS" value="true" />
   </AndroidXmlCodeStyleSettings>
-  <DB2CodeStyleSettings version="5">
+  <DB2CodeStyleSettings version="6">
     <option name="USE_GENERAL_STYLE" value="false" />
     <option name="DISABLE_FORMATTING" value="true" />
     <option name="KEYWORD_CASE" value="1" />
@@ -92,7 +92,7 @@
     <option name="EXPR_CASE_COLLAPSE" value="false" />
     <option name="PRIMARY_KEY_NAME_TEMPLATE" value="{table}_{columns}_pk" />
   </DB2CodeStyleSettings>
-  <DerbyCodeStyleSettings version="5">
+  <DerbyCodeStyleSettings version="6">
     <option name="USE_GENERAL_STYLE" value="false" />
     <option name="DISABLE_FORMATTING" value="true" />
     <option name="KEYWORD_CASE" value="1" />
@@ -156,7 +156,7 @@
     <option name="EXPR_CASE_COLLAPSE" value="false" />
     <option name="PRIMARY_KEY_NAME_TEMPLATE" value="{table}_{columns}_pk" />
   </DerbyCodeStyleSettings>
-  <H2CodeStyleSettings version="5">
+  <H2CodeStyleSettings version="6">
     <option name="USE_GENERAL_STYLE" value="false" />
     <option name="DISABLE_FORMATTING" value="true" />
     <option name="KEYWORD_CASE" value="1" />
@@ -214,7 +214,7 @@
     <option name="EXPR_CASE_COLLAPSE" value="false" />
     <option name="PRIMARY_KEY_NAME_TEMPLATE" value="{table}_{columns}_pk" />
   </H2CodeStyleSettings>
-  <H2CodeStyleSettings version="5">
+  <H2CodeStyleSettings version="6">
     <option name="USE_GENERAL_STYLE" value="false" />
     <option name="DISABLE_FORMATTING" value="true" />
     <option name="KEYWORD_CASE" value="1" />
@@ -272,7 +272,7 @@
     <option name="EXPR_CASE_COLLAPSE" value="false" />
     <option name="PRIMARY_KEY_NAME_TEMPLATE" value="{table}_{columns}_pk" />
   </H2CodeStyleSettings>
-  <HSQLCodeStyleSettings version="5">
+  <HSQLCodeStyleSettings version="6">
     <option name="USE_GENERAL_STYLE" value="false" />
     <option name="DISABLE_FORMATTING" value="true" />
     <option name="KEYWORD_CASE" value="1" />
@@ -383,7 +383,7 @@
     <option name="JD_KEEP_EMPTY_EXCEPTION" value="false" />
     <option name="JD_KEEP_EMPTY_RETURN" value="false" />
   </JavaCodeStyleSettings>
-  <MSSQLCodeStyleSettings version="5">
+  <MSSQLCodeStyleSettings version="6">
     <option name="USE_GENERAL_STYLE" value="false" />
     <option name="DISABLE_FORMATTING" value="true" />
     <option name="KEYWORD_CASE" value="1" />
@@ -447,7 +447,7 @@
     <option name="EXPR_CASE_COLLAPSE" value="false" />
     <option name="PRIMARY_KEY_NAME_TEMPLATE" value="{table}_{columns}_pk" />
   </MSSQLCodeStyleSettings>
-  <MySQLCodeStyleSettings version="5">
+  <MySQLCodeStyleSettings version="6">
     <option name="USE_GENERAL_STYLE" value="false" />
     <option name="DISABLE_FORMATTING" value="true" />
     <option name="KEYWORD_CASE" value="1" />
@@ -505,7 +505,7 @@
     <option name="EXPR_CASE_COLLAPSE" value="false" />
     <option name="PRIMARY_KEY_NAME_TEMPLATE" value="{table}_{columns}_pk" />
   </MySQLCodeStyleSettings>
-  <OracleCodeStyleSettings version="5">
+  <OracleCodeStyleSettings version="6">
     <option name="USE_GENERAL_STYLE" value="false" />
     <option name="DISABLE_FORMATTING" value="true" />
     <option name="KEYWORD_CASE" value="1" />
@@ -569,7 +569,7 @@
     <option name="EXPR_CASE_COLLAPSE" value="false" />
     <option name="PRIMARY_KEY_NAME_TEMPLATE" value="{table}_{columns}_pk" />
   </OracleCodeStyleSettings>
-  <PostgresCodeStyleSettings version="5">
+  <PostgresCodeStyleSettings version="6">
     <option name="USE_GENERAL_STYLE" value="false" />
     <option name="DISABLE_FORMATTING" value="true" />
     <option name="KEYWORD_CASE" value="1" />
@@ -637,7 +637,7 @@
   <Properties>
     <option name="KEEP_BLANK_LINES" value="true" />
   </Properties>
-  <SQLiteCodeStyleSettings version="5">
+  <SQLiteCodeStyleSettings version="6">
     <option name="USE_GENERAL_STYLE" value="false" />
     <option name="DISABLE_FORMATTING" value="true" />
     <option name="KEYWORD_CASE" value="1" />
@@ -695,7 +695,7 @@
     <option name="EXPR_CASE_COLLAPSE" value="false" />
     <option name="PRIMARY_KEY_NAME_TEMPLATE" value="{table}_{columns}_pk" />
   </SQLiteCodeStyleSettings>
-  <SqlCodeStyleSettings version="5">
+  <SqlCodeStyleSettings version="6">
     <option name="DISABLE_FORMATTING" value="true" />
     <option name="KEYWORD_CASE" value="1" />
     <option name="TYPE_CASE" value="3" />
@@ -782,7 +782,7 @@
     <option name="WRAP_PARENTHESIZED_EXPRESSION_INSIDE_VALUES" value="2" />
     <option name="NEW_LINE_AFTER_SELECT_2" value="0" />
   </SqlCodeStyleSettings>
-  <SybaseCodeStyleSettings version="5">
+  <SybaseCodeStyleSettings version="6">
     <option name="USE_GENERAL_STYLE" value="false" />
     <option name="DISABLE_FORMATTING" value="true" />
     <option name="KEYWORD_CASE" value="1" />
