@@ -797,6 +797,7 @@
     <option name="PREFER_EXPLICIT_TYPES_FUNCTION_EXPRESSION_RETURNS" value="true" />
     <option name="ENFORCE_TRAILING_COMMA" value="Remove" />
     <option name="VAR_DECLARATION_WRAP" value="5" />
+    <option name="OBJECT_LITERAL_WRAP" value="2" />
     <option name="INDENT_CHAINED_CALLS" value="false" />
   </TypeScriptCodeStyleSettings>
   <XML>
