@@ -273,13 +273,13 @@
     <option name="PRIMARY_KEY_NAME_TEMPLATE" value="{table}_{columns}_pk" />
   </HSQLCodeStyleSettings>
   <HTMLCodeStyleSettings>
-    <option name="HTML_ATTRIBUTE_WRAP" value="2" />
+    <option name="HTML_ATTRIBUTE_WRAP" value="0" />
+    <option name="HTML_TEXT_WRAP" value="0" />
     <option name="HTML_KEEP_LINE_BREAKS" value="false" />
     <option name="HTML_KEEP_BLANK_LINES" value="1" />
     <option name="HTML_ALIGN_ATTRIBUTES" value="false" />
     <option name="HTML_DO_NOT_INDENT_CHILDREN_OF" value="" />
     <option name="HTML_ENFORCE_QUOTES" value="true" />
-    <option name="HTML_NEWLINE_BEFORE_FIRST_ATTRIBUTE" value="When multiline" />
   </HTMLCodeStyleSettings>
   <JSCodeStyleSettings version="0">
     <option name="FORCE_SEMICOLON_STYLE" value="true" />
@@ -828,6 +828,7 @@
     <option name="KEEP_LINE_BREAKS" value="false" />
   </codeStyleSettings>
   <codeStyleSettings language="HTML">
+    <option name="RIGHT_MARGIN" value="1000" />
     <indentOptions>
       <option name="CONTINUATION_INDENT_SIZE" value="4" />
     </indentOptions>
